@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(33,77,118,1) 63%);
+    color: #ffffff;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile {
+    font-size: 28px;
+  }
+  
+  .icons span {
+    margin-left: 20px;
+    width: 14px;
+    height: 24px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  .promo-section {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+  }
+  
+  .promo-card {
+    flex: 0 0 auto;
+    background-color: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .main-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .menu {
+    margin: 20px 0;
+  }
+  
+  .menu-item {
+    background-color: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f1f1f;
+    padding: 10px 0;
+  }
+  
+  .footer-nav button {
+    background: none;
+    border: none;
+    color: #00bfff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:#00bfff
+  }

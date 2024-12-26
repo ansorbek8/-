@@ -1,0 +1,71 @@
+body {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .forgot-pin {
+    color: #8080ff;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    background-color: #666;
+    border-radius: 50%;
+  }
+  
+  .numpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+  }
+  
+   .numpad a{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  .numpad a:hover {
+    background-color: #555;
+  }
+  
+  .fingerprint {
+    background: url('fingerprint-icon.png') no-repeat center;
+    background-size: contain;
+  }
